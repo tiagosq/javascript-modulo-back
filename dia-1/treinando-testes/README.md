@@ -4,7 +4,7 @@
 ## Objetivo
 Aqui iremos criar um contador que poderá servir como uma ferramenta de pomodoro ou similar.
 
-![Exemplo](exemplo.png)
+![Um exemplo do nosso contador](countdown.png)
 
 ## Habilidades Esperadas
 - Assimilar os conceitos básicos de JS e TS

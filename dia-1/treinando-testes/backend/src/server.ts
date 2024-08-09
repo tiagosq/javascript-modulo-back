@@ -11,7 +11,7 @@ const corsOptions = {
   origin: 'http://localhost:5173',
 };
 
-app.use(bodyParser.json());
+app.use(express.json());
 app.use(cors(corsOptions));
 app.use('/api', teamsRoutes);
 

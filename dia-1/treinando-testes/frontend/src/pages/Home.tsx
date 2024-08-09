@@ -22,7 +22,9 @@ function Home() {
       <h1>Lista de Times</h1>
       <ul>
         {teams.map((team) => (
-          <Link key={team.id} to={`/team/${team.id}`}>{team.name}</Link>
+          <p key={team.id}>
+            <Link  to={`/team/${team.id}`}>{team.name}</Link>
+          </p>
         ))}
       </ul>
     </div>

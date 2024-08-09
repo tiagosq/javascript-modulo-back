@@ -5,6 +5,7 @@ const router = express.Router();
 
 router.post('/teams', async (req: Request, res: Response) => {
   const { name, foundationYear, state } = req.body;
+  
   try {
     const team = new Team({ name, foundationYear, state });
     await team.save();
